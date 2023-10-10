@@ -8,6 +8,10 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <div className='banner1 row container-fluid'>
+        <p className='col-6 text-banner'>Sejam bem-vindos</p>
+        <img className='col-5 scale-up-center' src='./banner.svg' alt=''></img>
+      </div>
     </div>
   );
 }
