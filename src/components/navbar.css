@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.logo_nav {
+    margin-left: 5rem;
+    width: 14rem;
+}
+
+#navbar-nav {
+    padding-left: 13rem;
+}
+
+.nav-item {
+    padding-left: 9rem;
+}
+
+.navbar-toggler {
+    margin-right: 1.5rem;
+    border: none;
+}
