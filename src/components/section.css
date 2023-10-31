@@ -1,9 +1,11 @@
 .container {
     padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 #sect{
     display: flex;
+    padding-bottom: 1rem;
 }
 
 #img-sect1 {
