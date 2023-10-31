@@ -1,17 +1,19 @@
 import './App.css';
 import './components/navbar.js';
+import './components/section.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from './components/navbar.js';
+import Section from './components/section.js';
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <div className='banner1 row container-fluid'>
-        <p className='col-6 text-banner'>Sejam bem-vindos</p>
-        <img className='col-5 scale-up-center' src='./banner.svg' alt=''></img>
+      <div className='container-fluid' id='banner'>
+        <img className='container-fluid' src='./slide_dbsaude.jpg' alt=''></img>
       </div>
+      <Section></Section>
     </div>
   );
 }
