@@ -8,6 +8,13 @@
     color: #fff;
 }
 
+#sect-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
 .logo-foot {
     width: 5rem;
 }
@@ -18,9 +25,17 @@ h1 {
 
 #txt-foot {
     text-align: left;
-    padding-left: 8rem;
     font-size: 0.8rem;
     font-style: none;
+    width: 20rem;
+}
+
+#txt2-foot {
+    width: 20rem;
+}
+
+#txt3-foot {
+    width: 20rem;
 }
 
 .link-foot {
