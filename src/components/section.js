@@ -12,7 +12,7 @@ function Section() {
                     <p>Obtenha informações estratégicas a partir dos dados do SUS, otimize sua pesquisa clínica e melhore a gestão de seu serviço de saúde.</p>
                 </div>
             </div>
-            <div className='row first-sec pt-5' id='sect'>
+            {/* <div className='row first-sec pt-5' id='sect'>
                 <div className='col-6' id='txt-sect2'>
                     <h3><b>Educação</b></h3>
                     <p>Extraia informações de seus sistemas educacionais presenciais ou à distância, otimize a gestão de seus cursos e melhore os resultados de sua instituição.</p>
@@ -25,7 +25,7 @@ function Section() {
                     <h3><b>Empresarial</b></h3>
                     <p>Tome decisões gerenciais baseadas em análise de big data e melhore os resultados de sua empresa de forma concreta.</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
