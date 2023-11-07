@@ -5,9 +5,9 @@ import './section.css';
 function Section() {
     return (
         <div className='container'>
-            <div className='row first-sec' id='sect'>
-                <img className='col-6' id='img-sect1' src='./estet.jpg' alt=''></img>
-                <div className='col-7' id='txt-sect1'>
+            <div className='row' id='sect'>
+                <img className='col-6-lg' id='img-sect1' src='./estet.jpg' alt=''></img>
+                <div className='col-4-lg' id='txt-sect1'>
                     <h3><b>Saúde</b></h3>
                     <p>Obtenha informações estratégicas a partir dos dados do SUS, otimize sua pesquisa clínica e melhore a gestão de seu serviço de saúde.</p>
                 </div>
