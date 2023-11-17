@@ -1,6 +1,23 @@
+/* configs globais */
+
 .App {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline-color: #cad74f;
+}
+
+body, button, input, a, ul, li {
+  outline-color: #cad74f;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 .container-fluid {

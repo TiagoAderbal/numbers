@@ -4,28 +4,31 @@ import './section.css';
 
 function Section() {
     return (
-        <div className='container'>
-            <div className='row' id='sect'>
-                <img className='col-6-lg' id='img-sect1' src='./estet.jpg' alt=''></img>
-                <div className='col-4-lg' id='txt-sect1'>
-                    <h3><b>Saúde</b></h3>
-                    <p>Obtenha informações estratégicas a partir dos dados do SUS, otimize sua pesquisa clínica e melhore a gestão de seu serviço de saúde.</p>
+        <div className='container' id='about'>
+            <div className='title-about'>
+                <h1 className='pb-4 title-about'>Sobre a Empresa</h1>
+                <img className='img-about' src='./logo.png' alt='logo seção sobre'></img>
+            </div>
+            <div className='row txt-about pt-5'>
+                <div className='col'>
+                    <h1><b>Empresa</b></h1>
+                    <p className='txt-1'>
+                        A Numb3rs foi criada em junho de 2015 com o objetivo de desenvolver produtos analíticos para a área da saúde e educacional.
+                        <br />
+                        <br />
+                        A ”Numb3rs”, oferece aos seus clientes ferramentas e metodologias de modo fácil e simples. Integra todos os seus dados e 
+                        bases abertas, transforma-os em conhecimento e proporciona uma visão holística do seu negócio. O desafio da Numb3rs é 
+                        sensibilizar as organizações para a importância da informação como um ativo estratégico, investindo na qualidade dos dados,
+                         de forma a transformar suas decisões do modelo “baseado em sentimentos” para o modelo “baseado em dados”.
+                    </p>
+                </div>
+                <div className='col'>
+                    <h1><b>Nossos Profissionais</b></h1>
+                </div>
+                <div className='col'>
+                    <h1><b>Nosso Diferencial</b></h1>
                 </div>
             </div>
-            {/* <div className='row first-sec pt-5' id='sect'>
-                <div className='col-6' id='txt-sect2'>
-                    <h3><b>Educação</b></h3>
-                    <p>Extraia informações de seus sistemas educacionais presenciais ou à distância, otimize a gestão de seus cursos e melhore os resultados de sua instituição.</p>
-                </div>
-                <img className='col-6' id='img-sect1' src='./book.jpg' alt=''></img>
-            </div>
-            <div className='row first-sec pt-5' id='sect'>
-                <img className='col-6' id='img-sect1' src='./company.png' alt=''></img>
-                <div className='col-7' id='txt-sect1'>
-                    <h3><b>Empresarial</b></h3>
-                    <p>Tome decisões gerenciais baseadas em análise de big data e melhore os resultados de sua empresa de forma concreta.</p>
-                </div>
-            </div> */}
         </div>
     );
 }

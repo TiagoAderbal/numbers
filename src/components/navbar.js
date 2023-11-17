@@ -18,13 +18,20 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="#navbar">Início</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#navbar">Sobre nós</a>
+                            <a className="nav-link" aria-current="page" href="#about">Sobre nós</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#navbar">Produtos</a>
+                        </li> */}
+                        <li class="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#navbar" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+                            <ul className="dropdown-menu">
+                                <li><a className="dropdown-item" href="http://app.numb3rs.com.br/dbsaude_sis/tb-usuario/login/" target='blank'>DBSaúde</a></li>
+                                <li><a className="dropdown-item" href="https://clipping.balancopadrao.com.br/" target='blank'>DBResumo</a></li>
+                            </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#navbar">Serviços</a>
+                            <a className="nav-link" aria-current="page" href="#navbar">Contato</a>
                         </li>
                     </ul>
                 </div>
