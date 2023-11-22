@@ -19,10 +19,18 @@ function Footer() {
                     <a className='link-foot' href='mailto:vendas@numb3rs.com.br'>vendas@numb3rs.com.br</a>
                 </div>
                 <div className='col-3-lg pt-4' id='txt3-foot'>
-                    <img className='icons-foot' src='./face-icon.png' alt=''></img>
-                    <img className='icons-foot' src='./insta-icon.png' alt=''></img>
-                    <img className='icons-foot' src='./linkedin-icon.png' alt=''></img>
-                    <img className='icons-foot' src='./youtube-icon.png' alt=''></img>
+                    <a href='https://facebook.com/numb3rsanalytics'>
+                        <img className='icons-foot' src='./face-icon.png' alt=''></img>
+                    </a>
+                    <a href='https://instagram.com/numb3rsanalytics'>
+                        <img className='icons-foot' src='./insta-icon.png' alt=''></img>
+                    </a>
+                    <a href='https://www.linkedin.com/company/numb3rs-analytics'>
+                        <img className='icons-foot' src='./linkedin-icon.png' alt=''></img>
+                    </a>
+                    <a href='https://youtube.com/@numb3rsanalytics'>
+                        <img className='icons-foot' src='./youtube-icon.png' alt=''></img>
+                    </a>
                 </div>
             </div>
         </div>
