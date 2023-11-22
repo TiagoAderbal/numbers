@@ -28,7 +28,7 @@ function Section() {
                         Nossa equipe é formada por profissionais sêniores com solida formação acadêmica e profissional.
                         <br />
                         <br />
-                        A soma dos conhecimentos técnicos adquirido do mestrado e doutorado da USP, mais o anos de trabalho nos segmentos de saúde,
+                        A soma dos conhecimentos técnicos adquirido do mestrado e doutorado da USP, mais os anos de trabalho nos segmentos de saúde,
                         financeiro e educacional, nos proporciona um inestimado valor de conhecimento que compartilhamos com nossos clientes nos projetos.
                     </p>
                 </div>
@@ -41,6 +41,11 @@ function Section() {
                         do negocio, vão definir a estrutura da base de dados.
                     </p>
                 </div>
+            </div>
+            <div className='gifs'>
+                <img className='gif' src='./const.gif' alt='empresa'></img>
+                <img className='gif' src='./grafic.gif' alt='grafico de linha'></img>
+                <img className='gif' src='./bat.gif' alt='batimento cardiaco'></img>
             </div>
         </div>
     );
