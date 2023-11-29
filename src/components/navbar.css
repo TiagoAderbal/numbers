@@ -8,11 +8,13 @@
 }
 
 #navbar-nav {
-    padding-left: 13rem;
+    /* display: flex;
+    justify-content: flex-end; */
+    padding-left: 20%;
 }
 
-.nav-item {
-    padding-left: 9rem;
+#nav-item {
+    padding-right: 9rem;
 }
 
 .navbar-toggler {
