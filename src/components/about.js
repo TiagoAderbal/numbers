@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './section.css';
+import './about.css';
 
-function Section() {
+function About() {
     return (
         <div className='container' id='about'>
             <div className='title-about'>
@@ -51,4 +51,4 @@ function Section() {
     );
 }
 
-export default Section;
+export default About;
