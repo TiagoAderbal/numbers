@@ -19,18 +19,23 @@ function Footer() {
                     <a className='link-foot' href='mailto:vendas@numb3rs.com.br'>vendas@numb3rs.com.br</a>
                 </div>
                 <div className='col-3-lg pt-4' id='txt3-foot'>
-                    <a href='https://facebook.com/numb3rsanalytics'>
+                    <a href='https://facebook.com/numb3rsanalytics' target='blank'>
                         <img className='icons-foot' src='./face-icon.png' alt=''></img>
                     </a>
-                    <a href='https://instagram.com/numb3rsanalytics'>
+                    <a href='https://instagram.com/numb3rsanalytics' target='blank'>
                         <img className='icons-foot' src='./insta-icon.png' alt=''></img>
                     </a>
-                    <a href='https://www.linkedin.com/company/numb3rs-analytics'>
+                    <a href='https://www.linkedin.com/company/numb3rs-analytics' target='blank'>
                         <img className='icons-foot' src='./linkedin-icon.png' alt=''></img>
                     </a>
-                    <a href='https://youtube.com/@numb3rsanalytics'>
+                    <a href='https://youtube.com/@numb3rsanalytics' target='blank'>
                         <img className='icons-foot' src='./youtube-icon.png' alt=''></img>
                     </a>
+                </div>
+            </div>
+            <div className='footer-end container'>
+                <div>
+                    <p>Desenvolvido por <a className='autor' href='https://www.azevedo.cnt.br/'>Azevedo Tech</a></p>
                 </div>
             </div>
         </div>

@@ -23,15 +23,17 @@ h1 {
     font-size: 0.8rem;
     font-style: none;
     width: 20rem;
+    margin-bottom: 2rem;
 }
 
 #txt2-foot {
     width: 20rem;
+    margin-bottom: 2rem;
 }
 
 #txt3-foot {
     width: 20rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .link-foot {
@@ -42,4 +44,13 @@ h1 {
 .icons-foot {
     width: 2.2rem;
     padding-right: 0.2rem;
+}
+
+.footer-end {
+    height: 0.8rem !important;
+    border-top: solid 1px;
+}
+
+.autor {
+    color: #fff;
 }
