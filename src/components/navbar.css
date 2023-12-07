@@ -1,5 +1,6 @@
 .navbar {
     background-color: #fff;
+    width: 100%;
 }
 
 .logo_nav {
@@ -9,16 +10,15 @@
 
 #navbar-nav {
     /* display: flex;
-    justify-content: flex-end; */
-    padding-left: 20%;
+    justify-content: space-between; */
+    padding-left: 25%;
 }
 
 #nav-item {
-    padding-right: 9rem;
+    padding-right: 50%;
 }
 
 .navbar-toggler {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
     border: none;
 }
-

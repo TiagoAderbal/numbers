@@ -35,7 +35,7 @@ function Footer() {
             </div>
             <div className='footer-end container'>
                 <div>
-                    <p>Desenvolvido por <a className='autor' href='https://www.azevedo.cnt.br/'>Azevedo Tech</a></p>
+                    <p>Desenvolvido por <a className='autor' href='https://www.azevedo.cnt.br/' target='blank'>Azevedo Tech</a></p>
                 </div>
             </div>
         </div>
