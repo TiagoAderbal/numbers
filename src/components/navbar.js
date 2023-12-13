@@ -9,10 +9,21 @@ function Navbar() {
             <div className='container-fluid'>
                 <div className="navbar-brand">
                     <Link to="/">
-                        <img src='./logo.png' alt='logotipo da empresa' className='logo_nav'></img>
+                        <img
+                            src='./logo.png'
+                            alt='logotipo da empresa'
+                            className='logo_nav'>
+                        </img>
                     </Link>
                 </div>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -21,14 +32,25 @@ function Navbar() {
                             <Link to='/' className="nav-link active" aria-current="page">Início</Link>
                         </li>
                         <li className="nav-item dropdown" id='nav-item'>
-                            <a className="nav-link dropdown-toggle" href="#navbar" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+                            <a
+                                className="nav-link dropdown-toggle"
+                                href="#navbar" role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Produtos
+                            </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="http://app.numb3rs.com.br/dbsaude_sis/tb-usuario/login/" target='blank'>DBSaúde</a></li>
-                                <li><a className="dropdown-item" href="https://clipping.balancopadrao.com.br/" target='blank'>DBResumo</a></li>
+                                <li><Link to='/produtos' className="dropdown-item">DBSaúde</Link></li>
+                                <li><a
+                                    className="dropdown-item"
+                                    href="https://clipping.balancopadrao.com.br/"
+                                    target='blank'>
+                                    DBResumo
+                                </a></li>
                             </ul>
                         </li>
                         <li className="nav-item" id='nav-item'>
-                            <Link to="/contact" className="nav-link" aria-current="page">Contato</Link>
+                            <Link to="/contato" className="nav-link" aria-current="page">Contato</Link>
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,23 @@
+.dbsaude {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.img-logo {
+    height: 9rem;
+}
+
+.text {
+    padding-top: 3rem;
+    text-align: justify;
+    padding-bottom: 0.5rem;
+}
+
+.text-accordion {
+    text-align: justify;
+}

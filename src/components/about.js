@@ -47,9 +47,6 @@ function About() {
                 <img className='gif' src='./grafic.gif' alt='grafico de linha'></img>
                 <img className='gif' src='./bat.gif' alt='batimento cardiaco'></img>
             </div>
-            <div className='wrap'>
-                <a href='https://google.com' target='blank'><button className='buttonn'>Clique aqui</button></a>
-            </div>
         </div>
     );
 }

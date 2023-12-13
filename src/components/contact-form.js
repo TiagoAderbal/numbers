@@ -23,7 +23,7 @@ function Formulario() {
     return (
         <div className='form-contact'>
             <div className='title-contact'>
-                <h1>Como podemos te ajudar?</h1>
+                <h1 className='title'>Como podemos te ajudar?</h1>
             </div>
             <div className='formulario'>
                 <form className=' container form' onSubmit={sendEmail}>
