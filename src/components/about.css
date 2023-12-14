@@ -14,11 +14,11 @@
 .txt-1 {
     padding-top: 0.9rem;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .gifs {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
 }
