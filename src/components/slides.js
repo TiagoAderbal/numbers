@@ -7,7 +7,7 @@ import { Carousel } from 'react-bootstrap';
 function Slides() {
     return (
         <div>
-            <Carousel>
+            <Carousel  indicators={false}>
                 <Carousel.Item interval={3000}>
                     <img className='slide' src='./slide_dbsaude.jpg' alt=''></img>
                     <Carousel.Caption>

@@ -5,6 +5,8 @@
 
 .caption {
     color: #4a8034;
-    background-color: aliceblue;
-    font-size: 4rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 70px 100px #fff;
+    font-size: 3rem;
+    margin-bottom: 5rem;
 }
