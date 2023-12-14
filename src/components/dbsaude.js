@@ -29,7 +29,7 @@ function Dbsaude() {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingOne">
                         <button
-                            className="accordion-button collapsed"
+                            className="accordion-button collapsed title-accord"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne"
@@ -68,7 +68,7 @@ function Dbsaude() {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingTwo">
                         <button
-                            className="accordion-button collapsed"
+                            className="accordion-button collapsed title-accord"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo"
@@ -133,7 +133,7 @@ function Dbsaude() {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingThree">
                         <button
-                            className="accordion-button collapsed"
+                            className="accordion-button collapsed title-accord"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree"

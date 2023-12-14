@@ -4,8 +4,12 @@
 }
 
 .title {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+.title-accord {
+    font-size: 1rem;
 }
 
 .img-logo {
@@ -16,8 +20,10 @@
     padding-top: 3rem;
     text-align: justify;
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .text-accordion {
     text-align: justify;
+    font-size: 1rem;
 }

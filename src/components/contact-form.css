@@ -25,3 +25,7 @@
 .button {
     background-color: #39b5aa;
 }
+
+.button:hover {
+    background-color: #cad74f;
+}
