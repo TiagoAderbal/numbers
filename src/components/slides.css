@@ -1,0 +1,10 @@
+.slide {
+    height: max-content;
+    width: 100%;
+}
+
+.caption {
+    color: #4a8034;
+    background-color: aliceblue;
+    font-size: 4rem;
+}
