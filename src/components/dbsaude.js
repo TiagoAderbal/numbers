@@ -35,7 +35,7 @@ function Dbsaude() {
                             data-bs-target="#flush-collapseOne"
                             aria-expanded="false"
                             aria-controls="flush-collapseOne">
-                            Proprosição de Valor
+                            Proposição de Valor
                         </button>
                     </h2>
                     <div

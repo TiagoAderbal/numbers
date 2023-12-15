@@ -1,6 +1,8 @@
 .form-contact {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .form {
@@ -14,20 +16,33 @@
 }
 
 .input, .textarea, .button {
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 10px;
-    border-radius: 15px;
-    border: solid 1px;
+    border-radius: 5px;
+    border: solid 1.7px;
+    height: 2.6rem;
+}
+
+.textarea {
+    height: 7rem !important;
 }
 
 .button {
     background-color: #39b5aa;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    height: 3rem !important;
+    width: 6rem;
+    padding-left: 0;
 }
 
 .button:hover {
     background-color: #cad74f;
+}
+
+.map {
+    height: 20rem;
+    width: 90%;
 }
