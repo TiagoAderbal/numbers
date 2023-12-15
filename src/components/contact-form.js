@@ -2,6 +2,7 @@ import './contact-form.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Formulario() {
     const [name, setName] = useState('')
@@ -17,7 +18,23 @@ function Formulario() {
             return;
         }
 
-        alert("ENVIADO")
+        const templateParams = {
+            from_name: name,
+            message: message,
+            email: email
+        }
+
+        emailjs.send('service_7n8jcip', 'template_g29y3tn', templateParams, 'kbGxGKS2VKNde25Q4')
+        .then((response) => {
+            console.log("email enviado", response.status, response.text)
+            setName('')
+            setEmail('')
+            setAssunto('')
+            setMessage('')
+        }, (err) => {
+            console.log("erro: ", err)
+        })
+        
     }
 
     return (
@@ -76,9 +93,7 @@ function Formulario() {
                         className='map'
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8454.252232986712!2d-46.84180237781353!3d-23.506154335659428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf01f729d35939%3A0x637f60e2deefe1ce!2sAv.%20Marcos%20Penteado%20de%20Ulhoa%20Rodrigues%2C%20939%20-%20Tambor%C3%A9%2C%20Barueri%20-%20SP%2C%2006460-040!5e0!3m2!1spt-BR!2sbr!4v1702668401659!5m2!1spt-BR!2sbr"
                         title='map'
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
+                        loading="lazy">
                     </iframe>
                 </div>
             </div>
