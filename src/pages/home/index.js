@@ -9,11 +9,11 @@ import Slides from '../../components/slides.js';
 function Home() {
   return (
     <div className="App">
-      <Navbar/>
-      <Slides/>
-      <About/>
-      <Button/>
-      <Footer/>
+      <Navbar />
+      <Slides />
+      <About />
+      <Button />
+      <Footer />
     </div>
   );
 }
