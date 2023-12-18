@@ -1,26 +1,40 @@
 .form-contact {
     padding-top: 3rem;
     padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 55%, rgba(20, 21, 7, 1) 100%);
 }
 
 .form {
-    padding-top: 0;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
 }
 
-.title {
-    font-size: 1.7rem;
+.formulario {
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 3rem 5rem 3rem 5rem;
+    background-color: #fff;
 }
 
-.input, .textarea, .button {
+.img-form {
+    height: auto;
+    margin-top: 0 !important;
+}
+
+/* .title {
+    font-size: 1.7rem;
+} */
+
+.input,
+.textarea,
+.button {
     margin-top: 1.4rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: solid 1.7px;
     height: 2.6rem;
 }
