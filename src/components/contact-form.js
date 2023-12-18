@@ -43,12 +43,14 @@ function Formulario() {
                 <h1 className='title'>Fale conosco!</h1>
             </div>
             <div className='content'>
-                <div className='formulario'>
-                    <img className='img-form container-fluid' src='./banner_form.png' alt=''></img>
+                <div className='row formulario'>
                     {/* <div className='title-contact'>
                         <h1 className='title'>Como podemos te ajudar?</h1>
                     </div> */}
-                    <form className='container form' onSubmit={sendEmail}>
+                    <div className='col-sm'>
+                        <img className='img-form' src='./banner_form1.png' alt=''></img>
+                    </div>
+                    <form className='col-lg container form' onSubmit={sendEmail}>
                         <input
                             className='input'
                             type='text'
