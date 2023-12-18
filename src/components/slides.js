@@ -16,10 +16,6 @@ function Slides() {
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
                     <img className='slide' src='./slide_dbsaude1.jpg' alt=''></img>
-                    <Carousel.Caption>
-                        <img className='img-slide' src='logo_db.png' alt=''></img>
-                        <p className='caption1'>Conheça nossa solução para a área da saúde</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
                     <img className='slide' src='./slide_hand1.jpg' alt=''></img>
