@@ -9,16 +9,13 @@ function Slides() {
         <div>
             <Carousel fade indicators={false}>
                 <Carousel.Item interval={3000}>
-                    <img className='slide' src='./slide_dbsaude.jpg' alt=''></img>
-                    <Carousel.Caption>
-                        <p className='caption'>Tome decisões baseadas em dados.</p>
-                    </Carousel.Caption>
+                    <img className='slide' src='./assets/imgs/slide_dbsaude.jpg' alt=''></img>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
-                    <img className='slide' src='./slide_dbsaude1.jpg' alt=''></img>
+                    <img className='slide' src='./assets/imgs/slide_dbsaude1.jpg' alt=''></img>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
-                    <img className='slide' src='./slide_hand1.jpg' alt=''></img>
+                    <img className='slide' src='./assets/imgs/slide_hand1.jpg' alt=''></img>
                 </Carousel.Item>
             </Carousel>
         </div>

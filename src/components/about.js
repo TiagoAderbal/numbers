@@ -7,7 +7,7 @@ function About() {
         <div className='container' id='about'>
             <div className='title-about'>
                 <h1 className='pb-3 title-about'>Sobre a Empresa</h1>
-                <img className='img-about mb-5' src='./logo.png' alt='logo seção sobre'></img>
+                <img className='img-about mb-5' src='./assets/imgs/logo.png' alt='logo seção sobre'></img>
             </div>
             <div className='row txt-about'>
                 <div className='col-lg '>
@@ -43,9 +43,9 @@ function About() {
                 </div>
             </div>
             <div className='gifs'>
-                <img className='gif' src='./const.gif' alt='empresa'></img>
-                <img className='gif' src='./grafic.gif' alt='grafico de linha'></img>
-                <img className='gif' src='./bat.gif' alt='batimento cardiaco'></img>
+                <img className='gif' src='./assets/imgs/const.gif' alt='empresa'></img>
+                <img className='gif' src='./assets/imgs/grafic.gif' alt='grafico de linha'></img>
+                <img className='gif' src='./assets/imgs/bat.gif' alt='batimento cardiaco'></img>
             </div>
         </div>
     );

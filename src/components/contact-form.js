@@ -48,7 +48,7 @@ function Formulario() {
                         <h1 className='title'>Como podemos te ajudar?</h1>
                     </div> */}
                     <div className='col-sm'>
-                        <img className='img-form' src='./banner_form1.png' alt=''></img>
+                        <img className='img-form' src='./assets/imgs/banner_form.png' alt=''></img>
                     </div>
                     <form className='col-lg container form' onSubmit={sendEmail}>
                         <input

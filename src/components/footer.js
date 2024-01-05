@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className='container-fluid' id='footer'>
             <div className='pt-4 pb-3'>
-                <img className='logo-foot' src='./logo-1.png' alt=''></img>
+                <img className='logo-foot' src='./assets/imgs/logo-1.png' alt=''></img>
             </div>
             <div className='row container-fluid' id='sect-foot'>
                 <div className='col-4-lg pt-4' id='txt-foot'>
@@ -20,16 +20,16 @@ function Footer() {
                 </div>
                 <div className='col-3-lg pt-4' id='txt3-foot'>
                     <a href='https://facebook.com/numb3rsanalytics' target='blank'>
-                        <img className='icons-foot' src='./face-icon.png' alt=''></img>
+                        <img className='icons-foot' src='./assets/imgs/face-icon.png' alt=''></img>
                     </a>
                     <a href='https://instagram.com/numb3rsanalytics' target='blank'>
-                        <img className='icons-foot' src='./insta-icon.png' alt=''></img>
+                        <img className='icons-foot' src='./assets/imgs/insta-icon.png' alt=''></img>
                     </a>
                     <a href='https://www.linkedin.com/company/numb3rs-analytics' target='blank'>
-                        <img className='icons-foot' src='./linkedin-icon.png' alt=''></img>
+                        <img className='icons-foot' src='./assets/imgs/linkedin-icon.png' alt=''></img>
                     </a>
                     <a href='https://youtube.com/@numb3rsanalytics' target='blank'>
-                        <img className='icons-foot' src='./youtube-icon.png' alt=''></img>
+                        <img className='icons-foot' src='./assets/imgs/youtube-icon.png' alt=''></img>
                     </a>
                 </div>
             </div>

@@ -10,7 +10,7 @@ function Navbar() {
                 <div className="navbar-brand">
                     <Link to="/">
                         <img
-                            src='./logo.png'
+                            src='./assets/imgs/logo.png'
                             alt='logotipo da empresa'
                             className='logo_nav'>
                         </img>
